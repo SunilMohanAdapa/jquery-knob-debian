@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+%:
+	dh $@
+
+override_dh_auto_build:
+	uglifyjs -o dist/jquery.knob.min.js js/jquery.knob.js
+
+override_dh_auto_clean:
+	dh_auto_clean
+	rm -f dist/jquery.knob.min.js

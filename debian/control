@@ -1,0 +1,26 @@
+Source: jquery-knob
+Section: web
+Priority: optional
+Maintainer: FreedomBox Packaging Team <freedombox-pkg-team@lists.alioth.debian.org>
+Uploaders:
+ Sunil Mohan Adapa <sunil@medhas.org>,
+Build-Depends:
+ debhelper (>= 9),
+ node-uglify,
+Standards-Version: 3.9.8
+Homepage: https://github.com/aterrien/jQuery-Knob
+Vcs-Browser: http://git.debian.org/?p=collab-maint/jquery-knob.git
+Vcs-Git: git://git.debian.org/git/collab-maint/jquery-knob.git
+
+
+Package: libjs-jquery-knob
+Architecture: all
+Depends:
+ ${misc:Depends},
+ libjs-jquery,
+Recommends: javascript-common
+Description: jQuery plugin for an interactive dial/knob
+ Javascript library to show a interactive dial/knob using jQuery. It
+ is canvas based and does not use png/jpg sprites.  Touch, mouse and
+ mousewheel, keyboard events have been implemented.  It is downward
+ compatible and overloads an input element.

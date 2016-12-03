@@ -1,0 +1,11 @@
+libjs-jquery-knob for Debian
+----------------------------
+
+In order to make use of jquery-knob in your html, include the
+following lines in your html header
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/jquery/jquery.js"></script>
+
+    <script language="javascript" type="text/javascript"
+    src="/javascript/jquery-knob/jquery.knob.min.js"></script>
