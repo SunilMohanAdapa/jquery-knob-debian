@@ -1,0 +1,4 @@
+# The source is actually present in the package just not in the same
+# directory.  Also the min.js file is getting overidden in the build
+# step.
+source-is-missing dist/jquery.knob.min.js
