@@ -7,7 +7,7 @@ License: MIT
 
 Files: excanvas.js
 Copyright: 2006, Google Inc.
-License: Apache2.0
+License: Apache-2.0
 
 Files: debian/*
 Copyright: 2016, Sunil Mohan Adapa <sunil@medhas.org>
